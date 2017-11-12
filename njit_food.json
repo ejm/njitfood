@@ -114,7 +114,7 @@
         },
         {
             "id": "forte",
-            "name": "Forte Pizza",
+            "name": "Forte Pizzeria",
             "defaults": {
                 "name": "Closed",
                 "color": "red",
