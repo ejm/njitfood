@@ -85,14 +85,20 @@ function parseRestaurants(data){
         
         var hours = []
         for (let hour of allHours) {
-            if (hour["end"] >= now() >= hour["start"] && hour["days"].includes(todayWeekday())) {
-                hours.push(hour);
+            if (hour["end"] >= now() && now() >= hour["start"]) {
+                if (hour["days"].includes(todayWeekday())){
+                    hours.push(hour);
+                }
+                
             }
         }
+        
+        console.log(hours);
         
         if (hours.length) {
             hours.sort(function(a, b) { return b["priority"] - a["priority"] });
             var min = hours[0];
+            console.log(min);
             if (min["priority"] < topPriority) {
                 rest["current_meal"]["name"] = min["name"];
                 rest["current_meal"]["color"] = min["color"];
