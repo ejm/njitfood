@@ -1,2 +1,0 @@
-# njitfood
-Food... at NJIT!
