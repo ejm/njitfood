@@ -93,10 +93,8 @@ function parseRestaurants(data){
             }
         }
         
-        console.log(hours);
-        
         if (hours.length) {
-            hours.sort(function(a, b) { return b["priority"] - a["priority"] });
+            hours.sort(function(a, b) { return a["priority"] - b["priority"] });
             var min = hours[0];
             console.log(min);
             if (min["priority"] < topPriority) {
