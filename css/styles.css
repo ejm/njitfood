@@ -1,0 +1,35 @@
+.status-bullet::before {
+    content: "•";
+}
+
+.status-bullet {
+    font-size: 3em;
+}
+
+td{
+    border: none !important;
+    text-align: center;
+    font-size: 1em !important;
+    font-weight: bold;
+    vertical-align: middle !important;
+}
+
+.red {
+    color: #e74c3c;
+}
+
+.yellow {
+    color: #f1c40f;                
+}
+
+.green {
+    color: #2ecc71;                
+}
+
+.njit {
+    background-color: #d12421 !important;
+}
+
+.njit a.navbar-brand{
+    color: #fff !important;
+}
