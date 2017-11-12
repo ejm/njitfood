@@ -1,0 +1,186 @@
+{
+    "restaurants": [
+        {
+            "id": "gds",
+            "name": "Highlander Commons (GDS)",
+            "defaults": {
+                "name": "Closed",
+                "color": "red",
+                "priority": 2,
+                "message": "We're closed, sorry!"
+            },
+            "hours": [
+                {
+                    "id": "open-mr",
+                    "name": "Open",
+                    "start": 420,
+                    "end": 1320,
+                    "days": "mtwr",
+                    "color": "yellow",
+                    "message": "We're open, but not serving hot food right now!",
+                    "priority": 1
+                },
+                {
+                    "id": "open-f",
+                    "name": "Open",
+                    "start": 420,
+                    "end": 1260,
+                    "days": "f",
+                    "color": "yellow",
+                    "message": "We're open, but not serving hot food right now!",
+                    "priority": 1
+                },
+                {
+                    "id": "open-s",
+                    "name": "Open",
+                    "start": 600,
+                    "end": 1260,
+                    "days": "s",
+                    "color": "yellow",
+                    "message": "We're open, but not serving hot food right now!",
+                    "priority": 1
+                },
+                {
+                    "id": "open-u",
+                    "name": "Open",
+                    "start": 660,
+                    "end": 1260,
+                    "days": "u",
+                    "color": "yellow",
+                    "message": "We're open, but not serving hot food right now!",
+                    "priority": 1
+                },
+                {
+                    "id": "breakfast-mf",
+                    "name": "Breakfast",
+                    "start": 420,
+                    "end": 600,
+                    "days": "mtwrf",
+                    "color": "green",
+                    "message": "Serving breakfast, hot and yummy",
+                    "priority": 0
+                },
+                {
+                    "id": "lunch-mf",
+                    "name": "Lunch",
+                    "start": 660,
+                    "end": 780,
+                    "days": "mtwrf",
+                    "color": "green",
+                    "message": "It's lunch time!",
+                    "priority": 0
+                },
+                {
+                    "id": "dinner-mf",
+                    "name": "Dinner",
+                    "start": 1005,
+                    "end": 1200,
+                    "days": "mtwrf",
+                    "color": "green",
+                    "message": "It's time for dinner!",
+                    "priority": 0
+                },
+                {
+                    "id": "dinner-su",
+                    "name": "Dinner",
+                    "start": 990,
+                    "end": 1140,
+                    "days": "su",
+                    "color": "green",
+                    "message": "It's time for dinner!",
+                    "priority": 0
+                },
+                {
+                    "id": "brunch-s",
+                    "name": "Brunch",
+                    "start": 600,
+                    "end": 840,
+                    "days": "s",
+                    "color": "green",
+                    "message": "Have brunch, it's breakfast AND lunch!",
+                    "priority": 0
+                },
+                {
+                    "id": "brunch-u",
+                    "name": "Brunch",
+                    "start": 660,
+                    "end": 840,
+                    "days": "s",
+                    "color": "green",
+                    "message": "Have brunch, it's breakfast AND lunch!",
+                    "priority": 0
+                }
+            ]
+        },
+        {
+            "id": "forte",
+            "name": "Forte Pizza",
+            "defaults": {
+                "name": "Closed",
+                "color": "red",
+                "priority": 2,
+                "message": "We're closed, sorry!"
+            },
+            "hours": [
+                {
+                    "id": "open-mf",
+                    "name": "Open",
+                    "start": 660,
+                    "end": 1200,
+                    "days": "mtwrf",
+                    "color": "green",
+                    "message": "We're open, come get some pizza!",
+                    "priority": 1
+                },
+                {
+                    "id": "open-s",
+                    "name": "Open",
+                    "start": 660,
+                    "end": 1020,
+                    "days": "s",
+                    "color": "green",
+                    "message": "We're open, come get some pizza!",
+                    "priority": 1
+                }
+            ]
+        },
+        {
+            "id": "leafs",
+            "name": "Farm to Campus Salads (Leafs)",
+            "defaults": {
+                "name": "Closed",
+                "color": "red",
+                "priority": 2,
+                "message": "We're closed, sorry!"
+            },
+            "hours": [
+                {
+                    "id": "open-mf",
+                    "name": "Open",
+                    "start": 660,
+                    "end": 1080,
+                    "days": "mtwrf",
+                    "color": "green",
+                    "message": "We're open, with fresh salads!",
+                    "priority": 1
+                }
+            ]
+        }
+    ],
+    "exceptions": [
+        {
+            "date": "2017-11-11",
+            "restaurants": [
+                {
+                    "id": "smashburger",
+                    "defaults": {
+                        "color": "red",
+                        "name": "Closed",
+                        "message": "SmashBurger opens up on November 13!",
+                        "priority": 0
+                    }
+                }
+            ]
+        }
+    ]
+}
