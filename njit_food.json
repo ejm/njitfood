@@ -241,6 +241,84 @@
                     "priority": 1
                 }
             ]
+        },
+        {
+            "id": "bonsai",
+            "name": "Bonsai Sushi",
+            "defaults": {
+                "name": "Closed",
+                "color": "red",
+                "priority": 2,
+                "message": "We're closed, sorry!"
+            },
+            "hours": [
+                {
+                    "id": "open-mf",
+                    "name": "Open",
+                    "start": 660,
+                    "end": 900,
+                    "days": "mtwrf",
+                    "color": "green",
+                    "message": "Come get some sushi, we're open!",
+                    "priority": 1
+                }
+            ]
+        },
+        {
+            "id": "pub",
+            "name": "Highlander Pub",
+            "defaults": {
+                "name": "Closed",
+                "color": "red",
+                "priority": 2,
+                "message": "We're closed, sorry!"
+            },
+            "hours": [
+                {
+                    "id": "open-mf",
+                    "name": "Open",
+                    "start": 690,
+                    "end": 1380,
+                    "days": "mtwrf",
+                    "color": "green",
+                    "message": "We are open! Come get some burgers!",
+                    "priority": 1
+                }
+            ]
+        },
+        {
+            "id": "tacobell",
+            "name": "Taco Bell",
+            "defaults": {
+                "name": "Closed",
+                "color": "red",
+                "priority": 2,
+                "message": "We're closed, sorry!"
+            },
+            "hours": [
+                {
+                    "id": "open-mf",
+                    "name": "Open",
+                    "start": 660,
+                    "end": 1380,
+                    "days": "mtwrf",
+                    "color": "green",
+                    "message": "We are open and we have tacos!",
+                    "priority": 1
+                }
+            ]
+        },
+        {
+            "id": "smashburger",
+            "name": "Smashburger",
+            "defaults": {
+                "name": "Closed",
+                "color": "red",
+                "priority": 2,
+                "message": "We're closed, sorry!"
+            },
+            "hours": [
+            ]
         }
     ],
     "exceptions": [
@@ -252,7 +330,7 @@
                     "defaults": {
                         "color": "red",
                         "name": "Closed",
-                        "message": "SmashBurger opens up on November 13!",
+                        "message": "Smashburger opens up on November 13!",
                         "priority": 0
                     }
                 }
