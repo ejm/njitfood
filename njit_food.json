@@ -187,6 +187,60 @@
                     "priority": 1
                 }
             ]
+        },
+        {
+            "id": "grill",
+            "name": "The Grill",
+            "defaults": {
+                "name": "Closed",
+                "color": "red",
+                "priority": 2,
+                "message": "We're closed, sorry!"
+            },
+            "hours": [
+                {
+                    "id": "open-mf",
+                    "name": "Open",
+                    "start": 450,
+                    "end": 1020,
+                    "days": "mtwrf",
+                    "color": "green",
+                    "message": "We're open, come get some food!",
+                    "priority": 1
+                }
+            ]
+        },
+        {
+            "id": "cafe",
+            "name": "Tech Cafe",
+            "defaults": {
+                "name": "Closed",
+                "color": "red",
+                "priority": 2,
+                "message": "We're closed, sorry!"
+            },
+            "hours": [
+                {
+                    "id": "open-mf",
+                    "name": "Open",
+                    "start": 450,
+                    "end": 1200,
+                    "days": "mtwrf",
+                    "color": "green",
+                    "message": "We're open, and we have coffee!",
+                    "priority": 1
+                },
+                {
+                    "id": "open-s",
+                    "name": "Open",
+                    "start": 600,
+                    "end": 900,
+                    "days": "s",
+                    "color": "green",
+                    "message": "We're open, and we have coffee!",
+                    "priority": 1
+                }
+            ]
         }
     ],
     "exceptions": [
