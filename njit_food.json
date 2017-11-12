@@ -165,6 +165,28 @@
                     "priority": 1
                 }
             ]
+        },
+        {
+            "id": "grains",
+            "name": "Grains Gourmet Sandwich Shop",
+            "defaults": {
+                "name": "Closed",
+                "color": "red",
+                "priority": 2,
+                "message": "We're closed, sorry!"
+            },
+            "hours": [
+                {
+                    "id": "open-mf",
+                    "name": "Open",
+                    "start": 660,
+                    "end": 1140,
+                    "days": "mtwrf",
+                    "color": "green",
+                    "message": "Get your sandwiches here, we're open!",
+                    "priority": 1
+                }
+            ]
         }
     ],
     "exceptions": [
