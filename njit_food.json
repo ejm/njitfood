@@ -105,7 +105,7 @@
                     "name": "Brunch",
                     "start": 660,
                     "end": 840,
-                    "days": "s",
+                    "days": "u",
                     "color": "green",
                     "message": "Have brunch, it's breakfast AND lunch!",
                     "priority": 0
