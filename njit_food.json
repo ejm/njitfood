@@ -281,7 +281,7 @@
                     "end": 1380,
                     "days": "mtwrf",
                     "color": "green",
-                    "message": "We are open! Come get some burgers!",
+                    "message": "We are open! Come get some drinks!",
                     "priority": 1
                 }
             ]
@@ -318,6 +318,16 @@
                 "message": "We're closed, sorry!"
             },
             "hours": [
+                {
+                    "id": "open-mf",
+                    "name": "Open",
+                    "start": 660,
+                    "end": 1380,
+                    "days": "mtwrfs",
+                    "color": "green",
+                    "message": "Get your burgers, we're open!",
+                    "priority": 1
+                }
             ]
         }
     ],
