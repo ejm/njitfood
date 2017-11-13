@@ -332,19 +332,5 @@
         }
     ],
     "exceptions": [
-        {
-            "date": "2017-11-12",
-            "restaurants": [
-                {
-                    "id": "smashburger",
-                    "defaults": {
-                        "color": "red",
-                        "name": "Closed",
-                        "message": "Smashburger opens up on November 13!",
-                        "priority": 0
-                    }
-                }
-            ]
-        }
     ]
 }
