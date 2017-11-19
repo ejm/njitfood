@@ -323,7 +323,17 @@
                     "name": "Open",
                     "start": 660,
                     "end": 1380,
-                    "days": "mtwrfs",
+                    "days": "mtwrf",
+                    "color": "green",
+                    "message": "Get your burgers, we're open!",
+                    "priority": 1
+                },
+                {
+                    "id": "open-mf",
+                    "name": "Open",
+                    "start": 660,
+                    "end": 1260,
+                    "days": "s",
                     "color": "green",
                     "message": "Get your burgers, we're open!",
                     "priority": 1
