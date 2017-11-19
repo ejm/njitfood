@@ -1,4 +1,4 @@
-var weekdays = "umtwfs"; // Define weekdays, calendar starts at Sunday
+var weekdays = "umtwrfs"; // Define weekdays, calendar starts at Sunday
 
 function getMinuteFromZero(dt){
     // Everything is stored in the JSON as minutes from zero, so, this is a helper function for that
