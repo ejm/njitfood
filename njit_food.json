@@ -64,7 +64,7 @@
                     "id": "lunch-mf",
                     "name": "Lunch",
                     "start": 660,
-                    "end": 780,
+                    "end": 900,
                     "days": "mtwrf",
                     "color": "green",
                     "message": "It's lunch time!",
@@ -155,11 +155,21 @@
             },
             "hours": [
                 {
-                    "id": "open-mf",
+                    "id": "open-mr",
                     "name": "Open",
                     "start": 660,
                     "end": 1080,
-                    "days": "mtwrf",
+                    "days": "mtwr",
+                    "color": "green",
+                    "message": "We're open, with fresh salads!",
+                    "priority": 1
+                },
+                {
+                    "id": "open-f",
+                    "name": "Open",
+                    "start": 660,
+                    "end": 960,
+                    "days": "f",
                     "color": "green",
                     "message": "We're open, with fresh salads!",
                     "priority": 1
