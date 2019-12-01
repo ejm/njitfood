@@ -124,4 +124,4 @@ function populateTable(data) {
     }
 }
 
-window.onload = function() { populate("http://njitfood.com/njit_food.json"); };
+window.onload = function() { populate("//njitfood.com/njit_food.json"); };
